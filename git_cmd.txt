@@ -1,0 +1,20 @@
+git init - to make your lockal folder REPOSITORY. git init - in gitBash terminal when your editor in your working folder on lockal computer.
+git remote add origin address - repository in githab. To connect/tie lockal and remote repositories.
+git add game_v2.py game.ipynb game.py add files to repository
+git commit -m "Initial commit" Команда Git для фиксации версий файлов:
+
+
+
+1. Create remote Repository on GitHub ("+", New, Name, description, Publick, add README, add gitignore)
+2.Create TOKEN.(Setting in GiTHub accaunt, 'Developer setting', Personal access token, copy and keep safe the token)
+3.Create lockal repository. VS Code( Система управления версиями (Source Control) в VS Code и нажмём на кнопку Инициализировать репозиторий (Init repository), or terminal GitBash - git init. 
+4. add files. ( VS Code '+' at file in list, GitBash git add game_v2.py)
+5. Осталось только зафиксировать все промежуточные изменения. Для этого нажимаем на кнопку Фиксация (символ галочки) в разделе Система управления версиями. GitBash git commit -m "Initial commit" Команда Git для фиксации версий файлов).
+6. Tie/synchronize repositoties. Для этого нажимаем на меню системы контроля версий (кнопка "...") и выбираем там Удалённый => Добавить удалённый репозиторий… Нам станет доступна строка для ввода URL для нашего удалённого репозитория. Копируем URL со страницы репозитория на GitHub и вставляем. Далее нас попросят дать этому репозиторию удалённое имя. Придумайте удобное для вас имя (вы вряд ли будете им пользоваться). После чего нажмите Enter.
+git remote add <удалённое_имя> https://github.com/<имя>/<имя_репозитория>
+git remote add SkillfactoryDS https://github.com/SkilfactoryDS/sf_data_science
+
+
+
+
+
